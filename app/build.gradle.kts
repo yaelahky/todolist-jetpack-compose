@@ -52,6 +52,7 @@ dependencies {
     implementation(libs.ui) // Jetpack Compose
     implementation(libs.material3) // Material 3
     implementation(libs.androidx.navigation.compose) // Navigation Compose
+    implementation(libs.androidx.datastore.preferences)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
